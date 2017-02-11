@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="jmath-779e61">
+ <names>
+  <name lang="en_US">JMath</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">JMath</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">JMath</name>
+   </names>
+   <descriptions>
+    <description lang="en_US">JMath</description>
+   </descriptions>
+   <tags>
+    <tag lang="en_US">JMath</tag>
+    <tag lang="en_US">Substitute</tag>
+    <tag lang="en_US">Teacher</tag>
+   </tags>
+   <triggerSentences>
+    <sentence lang="en_US">JMath</sentence>
+    <sentence lang="en_US">Substitute Teacher</sentence>
+    <sentence lang="en_US">Teacher</sentence>
+   </triggerSentences>
+   <loadingResponses>
+    <sentence lang="en_US">JMath</sentence>
+    <sentence lang="en_US">Teacher</sentence>
+   </loadingResponses>
+   <autonomous>
+    <condition purpose="launchTrigger"><![CDATA[JMath
+Teacher
+Substitute Teacher
+]]></condition>
+   </autonomous>
+   <permissions>
+    <canRunOnPod/>
+    <canStandUp/>
+    <canSitDown/>
+   </permissions>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement/>
+ </requirements>
+</package>
